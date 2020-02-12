@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_pass">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar"
+        android:layout_alignParentTop="true"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#444"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <TextView
+        android:layout_below="@id/tool_bar"
+        android:id="@+id/pass_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/pass_value"
+        android:layout_below="@id/pass_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/delete"
+        android:layout_below="@id/pass_value"
+        android:layout_centerHorizontal="true"
+        android:text="Delete"
+        android:layout_marginTop="30dp"
+        style="@style/TextAppearance.MaterialComponents.Button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
