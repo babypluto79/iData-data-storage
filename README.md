@@ -1,0 +1,3 @@
+# iData-data-storage
+used to store sensitive data
+this simple app is used to store passwords, pins and account numbers...there is a distiction between these three because all of these have different input types in EditText and their formats are different passwords are type Varchar, pins are Integers and Account numbers too. I utilized fragments in this project coz what's not to love...they live inside activities!. there are three fragments here and I utilized a viewPager to switch between the fragments and also FloatingActionButton is there to launch new activities to create the values...Material design is really dope..anyway i used sqlite as my preffered database engine due it's simplicity
